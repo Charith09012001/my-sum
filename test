@@ -6,4 +6,5 @@ def mysum(x):
   print("sum is ",s)
   
 inp=[int(p) for p in input('enter numbers').split(' ')]
+print("hello i am sum calculator")
 mysum(inp)
