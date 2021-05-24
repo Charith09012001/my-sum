@@ -1,0 +1,9 @@
+def mysum(x):
+  s=0
+  for i in x:
+        s=s+i
+        
+  print("sum is ",s)
+  
+inp=[int(p) for p in input('enter numbers').split(' ')]
+mysum(inp)
